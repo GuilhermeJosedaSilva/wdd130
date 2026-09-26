@@ -1,0 +1,146 @@
+/* =========================================================
+   Correnteza Rafting — rafting.css
+   Folha de estilos da página Sobre Nós (wwr)
+   ========================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap');
+
+/* ---------- Variáveis de cor e fonte ---------- */
+:root {
+  --cor-primaria: #1F6F6B;   /* teal do rio — títulos */
+  --cor-destaque1: #10231F;  /* tinta escura — texto do corpo e sobreposição do herói */
+  --cor-destaque2: #E4572E;  /* laranja corredeira — detalhes e links */
+  --cor-fundo: #F3ECDE;      /* areia clara — fundo da página */
+  --fonte-titulo: 'Fraunces', Georgia, serif;
+  --fonte-body: 'Work Sans', Arial, sans-serif;
+}
+
+/* ---------- Reset de box model ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- Corpo do documento ---------- */
+body {
+  font-family: var(--fonte-body);
+  color: var(--cor-destaque1);
+  background-color: var(--cor-fundo);
+}
+
+/* ---------- Largura da página ---------- */
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+/* ---------- Títulos ---------- */
+h1, h2 {
+  font-family: var(--fonte-titulo);
+  color: var(--cor-primaria);
+  text-align: center;
+}
+
+/* ---------- Espaçamento básico ---------- */
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+/* ---------- Cabeçalho do site ---------- */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 16px;
+}
+header .logo {
+  height: 48px;
+  width: auto;
+}
+header nav {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+header nav a {
+  color: var(--cor-destaque1);
+  font-weight: 600;
+  text-decoration: none;
+}
+header nav a:hover,
+header nav a:focus {
+  color: var(--cor-destaque2);
+}
+
+/* ---------- Rodapé e redes sociais ---------- */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-block: 16px 32px;
+}
+footer p {
+  margin: 16px 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+.redes-sociais {
+  display: flex;
+  gap: 12px;
+}
+.redes-sociais a {
+  text-decoration: none;
+}
+.redes-sociais img {
+  width: 32px;
+  height: 32px;
+}
+
+/* ---------- Div hero ---------- */
+.hero {
+  position: relative;
+}
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.85;
+  background-color: var(--cor-destaque1);
+  color: #fff;
+}
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: rgba(243, 236, 222, 0.9);
+  border-radius: 4px;
+}
+.hero article p {
+  margin: 0;
+  color: var(--cor-destaque1);
+}
+.hero article img {
+  float: right;
+  width: 125px;
+  margin: 0 0 8px 12px;
+  border-radius: 4px;
+}
+
+/* ---------- Seções de conteúdo ---------- */
+main section {
+  background-color: #fff;
+  border: 1px solid #D8CFBB;
+  border-radius: 4px;
+}

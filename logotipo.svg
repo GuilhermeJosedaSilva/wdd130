@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre Nós — Correnteza Rafting</title>
+  <meta name="description" content="Conheça a Correnteza Rafting: nossa missão, a história da empresa e o que esperar de um passeio de rafting no Rio Cubatão do Sul.">
+  <meta name="author" content="[SEU NOME COMPLETO]">
+  <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+<body>
+
+  <header>
+    <img class="logo" src="imagens/logotipo.svg" alt="Logotipo da Correnteza Rafting">
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre Nós</a>
+      <a href="passeios.html">Passeios</a>
+      <a href="contato.html">Fale Conosco</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <img src="imagens/heroi.jpg" alt="Bote de rafting descendo uma corredeira cercada de mata fechada">
+      <h1>Correnteza Rafting</h1>
+      <article>
+        <img src="imagens/equipe.jpg" alt="Guia sorridente da Correnteza Rafting pronto para o passeio">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nossa missão é levar cada pessoa rio abaixo com segurança, ensinando a remar em equipe e a respeitar a força da água. Mais do que um passeio, queremos que cada descida vire uma história pra contar.</p>
+      </article>
+    </div>
+
+    <section>
+      <h2>História</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A Correnteza Rafting nasceu de um único bote inflável e da vontade de mostrar o próprio rio da região para quem passava por perto. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat, e assim, aos poucos, a empresa cresceu até formar a equipe de guias que temos hoje.</p>
+    </section>
+
+    <section>
+      <h2>A aventura está te esperando!</h2>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Correnteza Rafting. [SEU NOME COMPLETO]</p>
+    <nav class="redes-sociais">
+      <a href="https://facebook.com"><img src="imagens/icone-rede1.svg" alt="Correnteza Rafting no Facebook"></a>
+      <a href="https://instagram.com"><img src="imagens/icone-rede2.svg" alt="Correnteza Rafting no Instagram"></a>
+      <a href="https://youtube.com"><img src="imagens/icone-rede3.svg" alt="Correnteza Rafting no YouTube"></a>
+    </nav>
+  </footer>
+
+</body>
+</html>
