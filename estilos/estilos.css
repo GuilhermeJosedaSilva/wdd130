@@ -12,11 +12,12 @@ body {
 
 nav {
     background-color: skyblue;
+    padding: 0px;
 }
 
 nav a {
     color: whitesmoke;
-    padding: 10;
+    padding: 10px;
     display: block;
 }
 
@@ -39,8 +40,7 @@ p {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    /* 1 */
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
